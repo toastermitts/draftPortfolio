@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script/script.js"></script>
+  <title>Erik Domnizky | UX/UI Designer</title>
+</head>
+<body>
+
+  <!--Nav Area-->
+
+  <nav class="rightJustify">
+    <a href="..." class="navItem">CV</a>
+    <div class="navItem" id="contactMe">REACH OUT</div>
+  </nav>
+
+  <!--Hero Headline Area-->
+
+  <div id="headlineText">Erik is a UX/UI Designer with over a decade of experience in user support.</div>
+
+  <!--Case Study Cards-->
+
+  <h2 class="sectionHeading">Projects</h2>
+
+  <div class="caseStudies">
+
+    <div id="elevGuat">
+      <div class="introText">
+        <h1>Elevate Guatemala</h1>
+        <p>Focusing on communications and driving donations, we redesigned the Elevate Guatemala website with invaluable input from stakeholders, potential donors, and participants alike.</p>
+      </div>
+      <img src="img/Frame 2.png" alt="elevGuatImage" class="flavorImage">
+    </div>
+
+    <div id="depEdu">
+      <div class="introText">
+        <h1>Case Study: Dept. of Education</h1>
+        <p>With the advent of the Department of Education's Student Aid website, the core Education website was left languishing. After research, we found that the site was primarily serving grantmakers, so we worked to make it better for that use case.</p>
+      </div>
+      <img src="img/Frame 1.png" alt="DeptOfEdu" class="flavorImage">
+    </div>
+    
+    <div id="jetWay">
+      <div class="introText">
+        <h1>Jetway: Go Together, Better.</h1>
+        <p>Built for the planners among us, Jetway is an application that makes building an itinerary a collaborative, accountable, fun, and easy process. Get everyone involved and make sure no one is left waiting at the gate.</p>
+      </div>
+      <img src="img/Frame 3.png" alt="jetWayimg" class="flavorImage">
+    </div>
+  </div>
+
+<!-- Should the heading of a section be inside or outside of the section tag? Inside makes styling it slightly easier, but I wonder how this is actually handled by engines and screen readers... -->
+
+  <section>
+    <h2 class="sectionHeading">Experiences</h2>
+    <div id="resumeContainer">
+      <div class="sideBar">
+        <p class="resumeHeading">Where am I?</p>
+        <p class="resumeText">Keeping it really real in Washington, D.C.</p>
+        <p class="resumeHeading">Work history</p>
+        <p class="resumeText">I've definitely been employed before, trust me on this.</p>
+      </div>
+      <div id="resumeContent">
+        <p class="resumeHeading">Know-it-all jerk @ Obama Foundation</p>
+        <p class="resumeText">Made lots of goofy things in Figma and generally had a pretty good time doing it. Hung out, drank some beers, and kept that CSS coming.</p>
+        <p class="resumeHeading">Professional Pretender @ Google, Inc.</p>
+        <p class="resumeText">Felt ineffectual as a daily task. Deliverables included trying to learn everything at once.</p>
+        <p class="resumeHeading">Scared nonstop @ Hillary For America</p>
+        <p class="resumeText">Hung out in the office answering tickets, pulling fiber, and being the only "mac" guy. It was a nightmare but it was great and I wouldn't trade it for the world. Are you trying to source your next campaign's IT Director? Hit me up!</p>
+      </div>
+    <div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contactInformation">
+      <p>Contact Information</p>
+      <p>More Information</p>
+      <p>Washington, DC.</p>
+    </div>
+    <div class="socials">
+      <!-- Replace all of these with href'd img tags and icons -->
+      <p>Twitter</p>
+      <p>Instagram</p>
+      <p>LinkTree</p>
+    </div>
+  </footer>
+
+<!--Insert jquery at the end of the body so the entire DOM has time to load.-->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<!--have contact info copied to user's clipboard? Users being flagged that their browser is trying to access the clipboard could be an issue. When does that come up? Does writing to the clipboard require this access or is there a lighter way to do it?-->

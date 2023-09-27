@@ -1,0 +1,185 @@
+:root {
+  /*variables: they're handled as [--primary-color: #hexcode;] and then can be called throughout the doc as [color: var(--primary-color);] */
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+h1  {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.sectionHeading {
+  padding-top: 150px;
+}
+
+.rightJustify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navItem {
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#contactMe  {
+  padding: 7px 20px;
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  border-color: white;
+  background-color: white;
+}
+
+/*spot text*/
+
+#headlineText {
+  max-width: 1000px;
+  width: 75%;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+/*center the below divs with this*/
+
+.caseStudies  {
+  max-width: 900px;
+  margin: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/*project cards here*/
+
+#elevGuat {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  border-radius: 30px;
+  padding: 18px;
+  margin: 18px;
+  background-color: rgba(194, 175, 240, 0.8);
+}
+
+#depEdu {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  border-radius: 25px;
+  padding: 18px;
+  margin: 18px;
+  background-color: rgba(125, 163, 219, 0.8);
+}
+
+#jetWay {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  border-radius: 25px;
+  padding: 18px;
+  margin: 18px;
+  background-color: #98e679;
+}
+
+/*interior content*/
+
+.introText  {
+  margin-left: 15px;
+}
+
+.flavorImage  {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+/* work experience section */
+
+#resumeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sideBar {
+  width: 35%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#resumeContent {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.resumeHeading {
+  color: white;
+  font-size: 30px;
+}
+
+.resumeText {
+  color: white;
+  font-size: 18px;
+}
+
+/* Footer section and buttons */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100%;
+  height: 300px;
+  background-color: darkslategrey
+}
+
+@media only screen and (max-width: 750px) {
+  #elevGuat, #depEdu, #jetWay {
+    flex-direction: column-reverse;
+  }
+  #resumeContainer {
+    flex-direction: column;
+  }
+  .sideBar {
+    width: 100%;
+  }
+  #resumeContent {
+    width: 100%;
+  }
+}
