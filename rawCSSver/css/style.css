@@ -32,7 +32,7 @@ a {
 }
 
 .sectionHeading {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .rightJustify {
@@ -124,6 +124,25 @@ a {
   height: 200px;
 }
 
+/* mission text */
+
+#missionText {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.missionTextSmall {
+  color: white;
+}
+
+.missionTextLarge {
+  color: white;
+}
+
 /* work experience section */
 
 #resumeContainer {
@@ -167,6 +186,10 @@ footer {
   width: 100%;
   height: 300px;
   background-color: darkslategrey
+}
+
+.socials {
+  text-align: right;
 }
 
 @media only screen and (max-width: 750px) {

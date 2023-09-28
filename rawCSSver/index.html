@@ -16,12 +16,13 @@
 
   <nav class="rightJustify">
     <a href="..." class="navItem">CV</a>
-    <div class="navItem" id="contactMe">REACH OUT</div>
+    <div class="navItem" id="contactMe" onclick="copyToClipboard()">REACH OUT</div>
+    <textarea id="emailAddress" style="display: none;"></textarea>
   </nav>
 
   <!--Hero Headline Area-->
 
-  <div id="headlineText">Erik is a UX/UI Designer with over a decade of experience in user support.</div>
+  <div id="headlineText" onclick="changeColor()">Erik is a UX/UI Designer with over a decade of experience in user support.</div>
 
   <!--Case Study Cards-->
 
@@ -58,6 +59,7 @@
 
   <section>
     <h2 class="sectionHeading">Experiences</h2>
+
     <div id="resumeContainer">
       <div class="sideBar">
         <p class="resumeHeading">Where am I?</p>
@@ -65,6 +67,7 @@
         <p class="resumeHeading">Work history</p>
         <p class="resumeText">I've definitely been employed before, trust me on this.</p>
       </div>
+
       <div id="resumeContent">
         <p class="resumeHeading">Know-it-all jerk @ Obama Foundation</p>
         <p class="resumeText">Made lots of goofy things in Figma and generally had a pretty good time doing it. Hung out, drank some beers, and kept that CSS coming.</p>
@@ -73,11 +76,14 @@
         <p class="resumeHeading">Scared nonstop @ Hillary For America</p>
         <p class="resumeText">Hung out in the office answering tickets, pulling fiber, and being the only "mac" guy. It was a nightmare but it was great and I wouldn't trade it for the world. Are you trying to source your next campaign's IT Director? Hit me up!</p>
       </div>
-    <div>
 
-      </div>
     </div>
   </section>
+
+  <div id="missionText">
+    <p class="missionTextSmall">Dedicated to mission-oriented information solutions, Erik focuses on projects that are approachable, impactful, and instigate positive change.</p>
+    <h1 class="missionTextLarge">Let's build something wonderful together.</h1>
+  </div>
 
   <footer>
     <div class="contactInformation">
