@@ -1,7 +1,3 @@
-:root {
-  /*variables: they're handled as [--primary-color: #hexcode;] and then can be called throughout the doc as [color: var(--primary-color);] */
-}
-
 body {
   background-color: rgb(17, 17, 17);
   font-family: "Montserrat", sans-serif;
