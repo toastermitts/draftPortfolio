@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script/script.js"></script>
+  <title>Erik Domnizky | UX/UI Designer</title>
+</head>
+<body>
+
+  <!--Nav Area-->
+
+  <nav class="rightJustify">
+    <a href="..." class="navItem">CV</a>
+    <div class="navItem" id="contactMe" onclick="copyToClipboard()">REACH OUT</div>
+    <textarea id="emailAddress" style="display: none;"></textarea>
+  </nav>
+
+  <!--Hero Headline Area-->
+
+  <div id="headlineText" onclick="changeColor()">Erik is a UX/UI Designer with over a decade of experience in user support.</div>
+
+  <!--Case Study Cards-->
+
+  <h2 class="sectionHeading">Projects</h2>
+
+  <div class="caseStudies">
+
+    <div id="elevGuat">
+      <div class="introText">
+        <h1>Elevate Guatemala</h1>
+        <p>Focusing on communications and driving donations, we redesigned the Elevate Guatemala website with invaluable input from stakeholders, potential donors, and participants alike.</p>
+      </div>
+      <img src="img/Frame 2.png" alt="elevGuatImage" class="flavorImage">
+    </div>
+
+    <div id="depEdu">
+      <div class="introText">
+        <h1>Case Study: Dept. of Education</h1>
+        <p>With the advent of the Department of Education's Student Aid website, the core Education website was left languishing. After research, we found that the site was primarily serving grantmakers, so we worked to make it better for that use case.</p>
+      </div>
+      <img src="img/Frame 1.png" alt="DeptOfEdu" class="flavorImage">
+    </div>
+    
+    <div id="jetWay">
+      <div class="introText">
+        <h1>Jetway: Go Together, Better.</h1>
+        <p>Built for the planners among us, Jetway is an application that makes building an itinerary a collaborative, accountable, fun, and easy process. Get everyone involved and make sure no one is left waiting at the gate.</p>
+      </div>
+      <img src="img/Frame 3.png" alt="jetWayimg" class="flavorImage">
+    </div>
+  </div>
+
+<!-- UX Skills section written with CSS Flex -->
+
+  <section>
+    <h2 class="sectionHeading">Skills</h2>
+    <div class="flexContainer">
+      <div class="skillCard">
+        <img src="img/atom.png" alt="Atom Icon" class="skillImage">
+        <h2>Atomic Design</h2>
+        <h3>Big things from small beginnings.</h3>
+        <p>Ensure your brand is consistent and protected by sweating the small stuff. Building experiences from the element up lets you move faster and spend less time at the drawing board.</p>
+      </div>
+      <div class="skillCard">
+        <img src="img/site-map.png" alt="Site Map" class="skillImage">
+        <h2>Information Architecture</h2>
+        <h3>Your own content from the perspective of the user.</h3>
+        <p>How and when will customers be trying to use your tool and find your information? Thinking about Information Architecture from a action-oriented viewpoint keeps users engaged with your content.</p>
+      </div>
+      <div class="skillCard">
+        <img src="img/code.png" alt="Web Development" class="skillImage">
+        <h2>HTML, CSS, & JavaScript</h2>
+        <h3>The bridge from design to implementation.</h3>
+        <p>Now more than ever, staying agile means keeping everyone on the same page and speaking the same language. More gets done more effectively when nothing is lost in translation between departments.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- My Work section written with CSS Grid -->
+
+  <section>
+    <div class="workGrid">
+      <h2 class="gridHead">My Work</h2>
+      <div class="gridSideway">
+        <img src="img/design.png" alt="designLogo" class="gridSidewayImg">
+        <h3>Where I've Been</h3>
+        <ul>
+          <li>Chicago, IL</li>
+          <li>Mountain View, CA</li>
+          <li>New York, NY</li>
+        </ul>
+      </div>
+      <div class="gridBody">
+        <h2>Places I've Worked</h2>
+        <h3>Advanced Repair Agent, Geek Squad</h3>
+        <p>Repaired computers, replaced power supplies, removed viruses.</p>
+        <h3>Head Photo Specialist, Walgreens</h3>
+        <p>Mixed chemistry for Noritsu developer and minilab. Developed film and created large print jobs. Handled disposal of chemistry and maintained lab within EPA requirements.</p>
+        <h3>Specialist, Apple Inc.</h3>
+        <p>Sold macs and Apple services. Provided initial "Mobile Genius" triage support. Participated in the launch of the original iPad, iPhone 4, iPhone 4S, and Mac OS X Lion through overnight prep. Worked closely with Visuals team to ensure exact compliance with Cupertino guidelines.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section>
+    <h2 class="sectionHeading">Experiences</h2>
+
+    <div id="resumeContainer">
+      <div class="sideBar">
+        <p class="resumeHeading">Where am I?</p>
+        <p class="resumeText">Keeping it really real in Washington, D.C.</p>
+        <p class="resumeHeading">Work history</p>
+        <p class="resumeText">I've definitely been employed before, trust me on this.</p>
+      </div>
+
+      <div id="resumeContent">
+        <p class="resumeHeading">Know-it-all jerk @ Obama Foundation</p>
+        <p class="resumeText">Made lots of goofy things in Figma and generally had a pretty good time doing it. Hung out, drank some beers, and kept that CSS coming.</p>
+        <p class="resumeHeading">Professional Pretender @ Google, Inc.</p>
+        <p class="resumeText">Felt ineffectual as a daily task. Deliverables included trying to learn everything at once.</p>
+        <p class="resumeHeading">Scared nonstop @ Hillary For America</p>
+        <p class="resumeText">Hung out in the office answering tickets, pulling fiber, and being the only "mac" guy. It was a nightmare but it was great and I wouldn't trade it for the world. Are you trying to source your next campaign's IT Director? Hit me up!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div id="missionText">
+    <div class="missionTextHolder">
+      <p class="missionTextSmall">Dedicated to mission-oriented information solutions, Erik focuses on projects that are approachable, impactful, and instigate positive change.</p>
+
+<!-- This feels effective as a narrative CTA, can this be made obviously clickable to spit out contact info in some way? Could make it a button but that much text would look plain bad. -->
+
+      <h1 class="missionTextLarge">Let's build something wonderful together.</h1>
+    </div>
+  </div>
+
+  <footer>
+    <div class="contactInformation">
+      <p>Contact Information</p>
+      <p>More Information</p>
+      <p>Washington, DC.</p>
+    </div>
+    <div class="socials">
+      <!-- Replace all of these with href'd img tags and icons -->
+      <p>Twitter</p>
+      <p>Instagram</p>
+      <p>LinkTree</p>
+    </div>
+  </footer>
+
+<!--Insert jquery at the end of the body so the entire DOM has time to load.-->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<!--have contact info copied to user's clipboard? Users being flagged that their browser is trying to access the clipboard could be an issue. When does that come up? Does writing to the clipboard require this access or is there a lighter way to do it?-->

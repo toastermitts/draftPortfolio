@@ -1,0 +1,323 @@
+:root {
+  /*variables: they're handled as [--primary-color: #hexcode;] and then can be called throughout the doc as [color: var(--primary-color);] */
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+h1  {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.sectionHeading {
+  padding-top: 100px;
+}
+
+.rightJustify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navItem {
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#contactMe  {
+  padding: 7px 20px;
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  border-color: white;
+  background-color: white;
+}
+
+/*spot text*/
+
+#headlineText {
+  max-width: 1000px;
+  width: 75%;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+/*center the below divs with this*/
+
+.caseStudies  {
+  max-width: 900px;
+  margin: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/*project cards here*/
+
+#elevGuat {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  border-radius: 30px;
+  padding: 18px;
+  margin: 18px;
+  background-color: rgba(194, 175, 240, 0.8);
+}
+
+#elevGuat:hover {
+  background-color: rgba(194, 175, 240, 1);
+}
+
+#depEdu {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  border-radius: 25px;
+  padding: 18px;
+  margin: 18px;
+  background-color: rgba(125, 163, 219, 0.8);
+}
+
+#depEdu:hover {
+  background-color: rgba(125, 163, 219, 1);
+}
+
+#jetWay {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  border-radius: 25px;
+  padding: 18px;
+  margin: 18px;
+  background-color: rgba(167, 226, 143, 0.8);
+}
+
+#jetWay:hover {
+  background-color: rgba(167, 226, 143, 1);
+}
+
+/*interior content*/
+
+.introText  {
+  margin-left: 15px;
+}
+
+.flavorImage  {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+/* mission text */
+
+#missionText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.missionTextHolder {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.missionTextSmall {
+  color: white;
+}
+
+.missionTextLarge {
+  color: white;
+  padding: 20px;
+  border-radius: 100px;
+}
+
+.missionTextLarge:hover {
+  color: black;
+  background-color: white;
+}
+
+/* UX Skills Section */
+
+.flexContainer  {
+  display: flex;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.skillCard {
+  width: 33%;
+  text-align: center;
+  background-color: black;
+  border: 4px solid rgba(0, 0, 0, 0.295);
+  max-width: 345px;
+  padding: 38px;
+  padding-top: 70px;
+  padding-bottom: 25px;
+  border-radius: 30px;
+  margin: 20px;
+  color: rgb(255, 255, 255);
+  min-height: 490px;
+}
+
+.skillCard:hover {
+  background-color: rgb(49, 57, 65);
+}
+
+.skillImage {
+  width: 175px;
+}
+
+/* My Work section with CSS Grid */
+
+.workGrid {
+  display: grid;
+  grid-template-areas: 
+    'head head head head'
+    'sideway body body body'
+    'sideway body body body';
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gridHead {
+  grid-area: head;
+}
+
+.gridSideway {
+  grid-area: sideway;
+  color: white;
+}
+
+.gridSidewayImg {
+  width: 200px;
+  padding: 45px;
+}
+
+.gridBody {
+  grid-area: body;
+  color: white;
+}
+
+.gridBody h2 {
+  text-align: left;
+}
+
+/* work experience section */
+
+#resumeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sideBar {
+  width: 35%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#resumeContent {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.resumeHeading {
+  color: white;
+  font-size: 30px;
+}
+
+.resumeText {
+  color: white;
+  font-size: 18px;
+}
+
+/* Footer section and buttons */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100%;
+  height: 300px;
+  background-color: darkslategrey
+}
+
+.socials {
+  text-align: right;
+}
+
+@media only screen and (max-width: 800px) {
+  #elevGuat, #depEdu, #jetWay {
+    flex-direction: column-reverse;
+  }
+  .flexContainer {
+    flex-direction: column;
+  }
+  .skillCard {
+    width: auto;
+    max-width: 600px;
+  }
+  #resumeContainer {
+    flex-direction: column;
+  }
+  .sideBar {
+    width: 100%;
+  }
+  #resumeContent {
+    width: 100%;
+  }
+  .workGrid {
+    grid-template-areas: 
+      'head'
+      'sideway'
+      'body';
+    text-align: center;
+  }
+  .gridSideway {
+    grid-area: sideway;
+    color: white;
+    padding: 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .flexContainer {
+    flex-wrap: wrap;
+  }
+}
