@@ -1,0 +1,146 @@
+html, body, .blobContainer {
+  height: 100%;
+}
+
+body {
+  background-color: #0a0f0d;
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 2px 45px #0a0f0d;
+}
+
+h2 {
+  color: #3cbbb1;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-family: 'poppins', sans-serif;
+}
+
+h6 {
+  font-family: 'poppins', sans-serif;
+  color: #3cbbb1;
+}
+
+p {
+  color: #e8e9eb;
+  font-family: 'montserrat', sans-serif;
+}
+
+.rightJustify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navItem {
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+#contactMe  {
+  color: black;
+  padding: 7px 20px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 30px;
+  border-color: #ee4266;
+  background-color: #ee4266;
+  transition: .15s;
+}
+
+#contactMe:hover {
+  box-shadow: 1px 1px 8px 5px rgba(238, 66, 102, 0.4);
+}
+
+#blobSvg {
+  position: fixed;
+  z-index: -1;
+}
+
+.blobContainer {
+  width: 100%;
+  position: relative;
+}
+
+.blobContainer svg {
+  width: 100%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  max-width: 1200px;
+}
+
+#headLine {
+  text-shadow: 1px 2px 45px #0a0f0d;
+  font-family: 'Poppins', sans-serif;
+}
+
+.projectCard {
+  background-color: rgba(63, 63, 63, 0.3);
+  border: 4px solid rgba(63, 63, 63, 0.3);
+  transition: .35s;
+  backdrop-filter: blur(50px);
+  box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.projectCard img {
+  display: flex;
+  width: 75%;
+  margin: 20px auto;
+  border-radius: 25px;
+}
+
+.projectCard:hover {
+  background-color: rgba(63, 63, 63, 0.6);
+  border: 4px solid;
+  border-color: rgba(238, 66, 102, 0.8);
+  box-shadow: 1px 5px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  color: white;
+}
+
+.skillCard {
+  background-color: rgba(63, 63, 63, 0.3);
+  border: 4px solid rgba(63, 63, 63, 0.3);
+  color: white;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 1px 3px 8px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+}
+
+.skillCard img {
+  width: 150px;
+  margin: 40px;
+}
+
+.appLogo {
+  height: 100px;
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.3));
+  margin: 10px;
+}
+
+#stinger {
+  font-family: 'poppins', sans-serif;
+  padding: 25px;
+  color: white;
+  border-radius: 100px;
+  transition: .25s;
+}
+
+#stinger:hover {
+  color: black;
+  background-color: #ee4266;
+  text-shadow: none;
+  box-shadow: 1px 5px 20px 5px rgba(0, 0, 0, 0.2);
+}
